@@ -1,0 +1,82 @@
+* {
+margin: 0;
+padding: 0;    
+}
+
+.card {
+    /*background-color: red;*/
+    background-color: #dbd8cd;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+body {
+    background-color: grey;
+}
+
+
+
+.question {
+    /*background-color: green;*/
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.question-number {
+    /*background-color: pink;*/
+    font-size: 20px;
+    padding: 15px;
+}
+
+h3, .user-question-input, .result {
+    text-align: center;
+}
+
+h3 {
+    /*background-color: aquamarine;*/
+    padding: 15px;
+}
+
+.user-question-input {
+    /*background-color: blueviolet;*/
+    padding: 20px;
+}
+
+.result {
+    display: none;
+}
+
+input {
+    padding: 5px;
+   border: none;
+   margin-bottom: 10px;
+   
+}
+
+.button-div {
+    text-align: center;
+    
+}
+
+button {
+    color: white;
+    background-color: rgb(112, 137, 221);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgb(77, 98, 167);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(57, 82, 163);
+}
