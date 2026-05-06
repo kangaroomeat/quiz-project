@@ -80,3 +80,10 @@ button:hover {
 button:active {
     background-color: rgb(57, 82, 163);
 }
+
+.error {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
