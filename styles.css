@@ -47,6 +47,8 @@ h3 {
 
 .result {
     display: none;
+    background-color: pink;
+    margin-bottom: 20px;
 }
 
 input {
@@ -86,4 +88,13 @@ button:active {
     text-align: center;
     font-size: 18px;
     display: none;
+}
+
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
 }

@@ -33,3 +33,5 @@ button.onclick=function() {
 
 }
 
+//add feature that if input field entry is not a number, throws error saying input must be a number
+
