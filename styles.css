@@ -83,7 +83,7 @@ button:active {
     background-color: rgb(57, 82, 163);
 }
 
-.error {
+.error, .error-nan {
     color: red;
     text-align: center;
     font-size: 18px;
@@ -93,6 +93,7 @@ button:active {
 
 .correct {
     color: green;
+    background-color: rgb(152, 224, 152);
 }
 
 .incorrect {

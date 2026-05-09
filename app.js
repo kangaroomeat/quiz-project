@@ -5,6 +5,7 @@ var button = document.querySelector(".check-answer");
 var correct = document.querySelector(".correct");
 var incorrect = document.querySelector(".incorrect");
 var error = document.querySelector(".error");
+var errorNan = document.querySelector(".error-nan");
 
 
 button.onclick=function() {
@@ -24,14 +25,31 @@ button.onclick=function() {
     correct.style.display = "block";
     incorrect.style.display = "none";
 
-} else {
+} else if(isNaN(answer.value)) {
+
+    errorNan.style.display = "block";
+    error.style.display = "none";
+    correct.style.display = "none";
+    incorrect.style.display = "none";
+
+}
+
+else {
     console.log("wrong");
     error.style.display = "none";
     incorrect.style.display = "block";
     correct.style.display = "none";
+    error.style.display = "none";
+} 
+
 }
 
+console.log(isNaN("dog"));
+
+if(isNaN("cat")) {
+    console.log("bingo bongo");
 }
 
 //add feature that if input field entry is not a number, throws error saying input must be a number
+
 
